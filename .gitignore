@@ -1,0 +1,14 @@
+
+target/classes/application.properties
+target/classes/com/bibliotecasofka/demo/DemoApplication.class
+target/classes/com/bibliotecasofka/demo/model/Recurso.class
+target/classes/com/bibliotecasofka/demo/model/Tematica.class
+target/classes/com/bibliotecasofka/demo/repository/AreaTematicaRepository.class
+target/classes/com/bibliotecasofka/demo/repository/RecursoRepository.class
+target/test-classes/com/bibliotecasofka/demo/DemoApplicationTests.class
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/sonarlint/issuestore/index.pb
+.idea/vcs.xml
