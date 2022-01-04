@@ -1,25 +1,19 @@
-package com.bibliotecasofka.demo.model;
+package com.bibliotecasofka.demo.dtos;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document
-public class Recurso {
-    @Id
-    private String id;
+public class RecursoDTO {
+    private String idRecurso;
     private String tipoRecurso;
     private Boolean disponible;
     private String fechaPrestamo;
     private String nombre;
-    private String idArea;
+    private String idTematica;
 
-
-    public String getId() {
-        return id;
+    public String getIdRecurso() {
+        return idRecurso;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdRecurso(String idRecurso) {
+        this.idRecurso = idRecurso;
     }
 
     public String getTipoRecurso() {
@@ -54,11 +48,11 @@ public class Recurso {
         this.nombre = nombre;
     }
 
-    public String getIdArea() {
-        return idArea;
+    public String getIdTematica() {
+        return idTematica;
     }
 
-    public void setIdArea(String idArea) {
-        this.idArea = idArea;
+    public void setIdTematica(String idTematica) {
+        this.idTematica = idTematica;
     }
 }
